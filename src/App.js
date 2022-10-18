@@ -28,7 +28,7 @@ function App() {
       <Box sx={{ display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center" }} height="50vh" width="50vh">
         <Box sx={{ textAlign: "center", backgroundColor: `${color}`, display: "flex", justifyContent: "center", alignItems: "center", color: "white", borderRadius:"100%" }} height="25vh" width="25vh">
           <Typography variant="h3" gutterBottom>
-            {degree}
+            {degree} °C
           </Typography>
         </Box>
         <Box sx={{ display: "flex", textAlign: "center", textJustify: "center", alignItems: 'center' }} spacing={2} height="25vh" width="25vh">
