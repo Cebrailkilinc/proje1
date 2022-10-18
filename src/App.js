@@ -10,11 +10,9 @@ function App() {
   const [degree, setDegree] = useState(1)
   const [color, setColor] = useState("red")
 
-
   useEffect(() => {
     if (degree > 15) {
       setColor("red")
-
     } else {
       setColor("blue")
     }
